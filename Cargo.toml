@@ -1,0 +1,15 @@
+[package]
+name = "testcmd"
+version = "0.1.0"
+authors = ["Oxygen <3038094028@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+colorful = "0.2"
+proctitle = "0.1.1"
+subprocess = "0.2.6"
+anyhow = "1.0"
+rustyline = "6.3.0"
+tokio = { version = "0.3", features = ["macros", "rt", "rt-multi-thread"] }
+console = "0.13.0"
